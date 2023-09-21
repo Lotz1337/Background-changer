@@ -1,9 +1,9 @@
-document.getElementById('rain').onclick = partyPurple
+document.getElementById('orange').onclick = partyOrange
 document.getElementById('green').onclick = partyGreen
 document.getElementById('blue').onclick = partyBlue
 
 
-function partyPurple () {
+function partyOrange () {
   document.querySelector('body').style.background = ('rgba(237, 181, 78, 1)')
   document.querySelector('body').style.color = ('white')
 }
